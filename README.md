@@ -1,1 +1,1 @@
-# 3d-clip-for-brain-mri
+# 3D Clip for Brain MRI
