@@ -1,12 +1,11 @@
-# Revisiting CLIP:
+# Revisiting CLIP: Efficient Alignment of 3D MRI and Tabular Data using Domain-Specific Foundation Models
 
 Official Pytorch implementation from the paper
 
-> **[REVISITING CLIP: EFFICIENT ALIGNMENT OF 3D MRI AND TABULAR DATA USING
-DOMAIN-SPECIFIC FOUNDATION MODELS]()** <br>
+> **Revisiting CLIP: Efficient Alignment of 3D MRI and Tabular Data using Domain-Specific Foundation Models** <br>
 > ISBI 2025 <br>
-> [Jakob Krogh Petersen*](https://www.linkedin.com/in/jakob-krogh-petersen-656b21129/), [Valdemar Licht*](https://www.linkedin.com/in/valdemar-licht/), [Mads Nielsen](https://scholar.google.de/citations?user=2QCJXEkAAAAJ&hl=en), [Asbjørn Munk*](https://asbn.dk)
->
+> [Jakob Krogh Petersen*](https://www.linkedin.com/in/jakob-krogh-petersen-656b21129/), [Valdemar Licht*](https://www.linkedin.com/in/valdemar-licht/), [Mads Nielsen](https://scholar.google.de/citations?user=2QCJXEkAAAAJ&hl=en), [Asbjørn Munk](https://asbn.dk)
+> 
 > Pioneer Centre for AI & University of Copenhagen
 >
 > \* Equal Contribution
@@ -46,11 +45,7 @@ Run the preprocessing step using the corresponding script `bash run_preprocess.s
 
 7. Run Training
 Run training with the script `bash run_train.sh`. Use arguments `-e` and `-c` to add experiment settings and configuration settings. Use `-f` to train from scratch.
-
-
-Ex train from scratch on a debug experiment locally:
-'sh run_train.bash -e debug_val -c local -f'
-
-### External files needed
-- Dataset folder 'GammaKnife-filtered'
-- States folder 'states'
+For example, to train from scratch on a debug experiment locally use:
+```
+bash run_train.bash -e debug_val -c local -f
+```
