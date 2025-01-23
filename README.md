@@ -64,7 +64,8 @@ We release checkpoints for the best-performing CLIP-trained models for each of t
 | MedNeXt      | 4          | [Download](https://github.com/asbjrnmunk/amaes)<sup>**</sup> |
 | ResNet       | 57         | [Download](https://github.com/asbjrnmunk/amaes)<sup>**</sup> |
 
-*The official model weights can be extracted from HuggingFace. See [Here](https://github.com/microsoft/SDNet/blob/master/bert_vocab_files/bert-base-uncased-vocab.txt) for the vocabulary.
+*The official model weights can be extracted from HuggingFace. See [here](https://github.com/microsoft/SDNet/blob/master/bert_vocab_files/bert-base-uncased-vocab.txt) for the vocabulary.
+
 **For the MedNeXt and ResNet models, we refer to [AMAES](https://amaes.asbn.dk). 
 
 ## Citation
