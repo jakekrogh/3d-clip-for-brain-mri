@@ -1,0 +1,7 @@
+#!/bin/bash
+
+NUM_WORKERS=8
+NUM_DEVICES=1
+COMPILE_ARGS=""
+RUN_ENV="poetry run dotenv run python"
+INSTALL_CMD="poetry install --no-root"
