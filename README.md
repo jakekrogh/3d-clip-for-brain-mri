@@ -10,7 +10,7 @@ Official Pytorch implementation from the paper
 >
 > \* Equal Contribution
 
-Paper link: [ArXiv]().
+Paper link: [ArXiv](https://arxiv.org/abs/2501.14051).
 
 ![tsne_final](https://github.com/user-attachments/assets/6da89278-a128-42f2-afb6-2353b7c1b153)
 
@@ -75,7 +75,7 @@ Please use
 @article{krogh2025clip3d,
   title={Efficient Alignment of 3D MRI and Tabular Data using Domain-Specific Foundation Models},
   author={Petersen, Jakob Krogh and Licht, Johan Valdemar and Nielsen, Mads and Munk, Asbjørn},
-  journal={arXiv preprint arXiv:2408.00640},
+  journal={arXiv preprint arXiv:2501.14051},
   year={2025}
 }
 ```
